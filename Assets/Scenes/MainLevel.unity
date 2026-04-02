@@ -823,7 +823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   sideSpeed: 10
   xBoundary: 4.5
-  jumpforce: 500
+  jumpForce: 12
   isGrounded: 0
 --- !u!54 &2103858622
 Rigidbody:
@@ -850,7 +850,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 42
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!1001 &761117312715462953
 PrefabInstance:
