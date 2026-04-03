@@ -350,7 +350,8 @@ GameObject:
   - component: {fileID: 8842977819945462204}
   - component: {fileID: 3227858457238442749}
   - component: {fileID: 503699211709889193}
-  - component: {fileID: 6514418414100437827}
+  - component: {fileID: 4564604288189185935}
+  - component: {fileID: 6145144173773246644}
   m_Layer: 0
   m_Name: track
   m_TagString: isGrounded
@@ -464,7 +465,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &6514418414100437827
+--- !u!114 &4564604288189185935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324049328157861524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53df85a2a43b8140b061699786ae4f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoadLoop
+  speed: 10
+  roadLength: 50
+  numberOfSegments: 5
+--- !u!114 &6145144173773246644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
