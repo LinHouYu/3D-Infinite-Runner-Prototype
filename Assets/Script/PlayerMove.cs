@@ -78,6 +78,7 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     void Shoot()
     {
         if (currentAmmo > 0)
